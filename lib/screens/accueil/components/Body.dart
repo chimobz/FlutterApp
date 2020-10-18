@@ -3,6 +3,7 @@ import 'package:test1/screens/accueil/components/accueil_content.dart';
 import 'package:test1/constants.dart';
 import 'package:test1/size_config.dart';
 import 'package:test1/default_button.dart';
+import 'package:test1/screens/home/homeScreen.dart';
 
 
 class Body extends StatefulWidget{
@@ -67,7 +68,7 @@ List<Map<String,String>> welcomeData =[
                          DefaultButton(
                            text:"Continuer",
                            press:(){
-                            // Navigator.pushNamed(context, HomeScreen.routeName);
+                             Navigator.pushNamed(context, HomeScreen.routeName);
                            },
                          ),
                          Spacer(),
