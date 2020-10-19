@@ -4,6 +4,7 @@ import 'package:test1/size_config.dart';
 import 'package:test1/screens/home/components/HomeHeader.dart';
 import 'package:test1/screens/home/components/discounter_banner.dart';
 import 'package:test1/screens/home/components/categories.dart';
+
 class Body extends StatelessWidget{
 
   @override

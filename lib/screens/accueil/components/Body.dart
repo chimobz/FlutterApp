@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test1/screens/accueil/components/accueil_content.dart';
 import 'package:test1/constants.dart';
+import 'package:test1/screens/centreInteret/centreInteret.dart';
 import 'package:test1/size_config.dart';
 import 'package:test1/default_button.dart';
 import 'package:test1/screens/home/homeScreen.dart';
@@ -68,7 +69,7 @@ List<Map<String,String>> welcomeData =[
                          DefaultButton(
                            text:"Continuer",
                            press:(){
-                             Navigator.pushNamed(context, HomeScreen.routeName);
+                             Navigator.pushNamed(context, CentreInteret.routeName);
                            },
                          ),
                          Spacer(),
